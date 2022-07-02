@@ -133,6 +133,7 @@ a {
   background-color: transparent;
   fill:#808080;
   border-radius:5px;
+  transition: all .5s ease;
 }
 
 .sns img:hover{
@@ -152,7 +153,7 @@ a {
   margin: 50px 0 50px 0;
   text-align: center;
   letter-spacing: 15px !important;
-  font-family: flat-regular, Verdana, sans-serif;
+  /* font-family: flat-regular, Verdana, sans-serif; */
 }
 
 .sec1 {
@@ -341,6 +342,10 @@ a {
 .filter-all {
   outline: 1px solid #333;
   outline-offset: -1px;
+  transition: all .5s ease;
+}
+.filter-all:hover{
+  outline: 1px solid var(--accent-color);
 }
 
 button[name=category] {
