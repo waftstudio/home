@@ -414,7 +414,6 @@ button:hover {
 }
 
 .title {
-  font-family: flat-light, verdana, sans-serif;
   color: white;
   font-size: 2rem;
   background-color: inherit;
@@ -423,7 +422,7 @@ button:hover {
 }
 
 .subtitle {
-  font-family: century-gothic, verdana, sans-serif;
+  font-family: flat-light, verdana, sans-serif;
   color: #ddd;
   background-color: inherit;
   font-kerning: normal;
